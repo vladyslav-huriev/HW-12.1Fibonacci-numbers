@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Please enter the Fibonacchi number: ");
             int n = int.Parse(Console.ReadLine());
-            int result = CalcFibonacchi.Calculate(n);
+            int result = CalcFibonacchi.Calculate(n-1);
             Console.WriteLine($"The Fibonacchi number {n} is equil to {result}");
             // Console.WriteLine($"The Fibonacchi number {n-1} is equil to {result}");
         }
